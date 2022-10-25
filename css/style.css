@@ -1,104 +1,106 @@
 /*Cabeçalho*/
-.bg-greenhd{
-    background-color: #7AC8AE;
+.bg-greenhd {
+	background-color: #7ac8ae;
 }
 
-.navbar a{
-    color: #C7FFDF;
-    text-decoration: none;
+.navbar a {
+	color: #c7ffdf;
+	text-decoration: none;
 }
 
 #selected {
-    font-weight: bold;    
-    text-decoration: underline;
-    color: #FDFFD2;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #fdffd2;
 }
 
-.navbar a:hover{
-    text-decoration: underline;
-    text-decoration: bolder;
-    color: #FDFFD2;
+.navbar a:hover {
+	text-decoration: underline;
+	text-decoration: bolder;
+	color: #fdffd2;
 }
 
 /*Home*/
-#corpohome{
-    background-color: #F6FFE0;
+#corpohome {
+	background-color: #f6ffe0;
 }
 
-.img-fluid{
-    margin-top: 20px;
-    width: 50%;
+.img-fluid {
+	margin-top: 20px;
+	width: 50%;
 }
 
-.Introtxt{
-    width: 50%;
-    float: right;
-    padding: 20px;
-    text-align: center;
+.Introtxt {
+	width: 50%;
+	float: right;
+	padding: 20px;
+	text-align: center;
 }
 
-.lead{
-    text-align: justify;
+.lead {
+	text-align: justify;
 }
 
-.Explicacao{
-    padding-top: 20px;
+.Explicacao {
+	padding-top: 20px;
 }
 
-.Tipos{
-    padding-top: 20px;
+.Tipos {
+	padding-top: 20px;
 }
 
-.Encceja{
-    padding-top: 20px;
+.Encceja {
+	padding-top: 20px;
 }
 
-.Matricula{
-    padding-top: 20px;
+.Matricula {
+	padding-top: 20px;
 }
 
-.TxtMatricula{
-    width: 50%;
-    float: left;
-    padding-right: 5px;
-    padding-top: 80px;
+.TxtMatricula {
+	width: 50%;
+	float: left;
+	padding-right: 5px;
+	padding-top: 80px;
 }
 
-.Motivacao{
-    padding-top: 20px;
+.Motivacao {
+	padding-top: 20px;
 }
 
 /*Formulário*/
 
-#corpoforms{
-    background-color: #F6FFE0;
+#corpoforms {
+	background-color: #f6ffe0;
 }
-
 
 /*Contato*/
 
-#corpocontact{
-    background-color: #F6FFE0;
+#corpocontact {
+	background-color: #f6ffe0;
 }
 
-.Banner{
-    width: 100%;
-    height: 300px;
-    background: url('../img/Banner.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    color: rgb(32, 180, 126);
+.Banner {
+	width: 100%;
+	height: 300px;
+	background: url("../img/Banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: rgb(32, 180, 126);
 }
 
 /*Rodapé*/
-#footer{
-    background-color: rgb(0, 88, 55);
+#footer {
+	background-color: rgb(0, 88, 55);
 }
 
-.footTxt{
-    padding-left: 50px;
-    text-align: center;
-    color: white;
+.footTxt {
+	padding-left: 50px;
+	text-align: center;
+	color: white;
+}
+footer {
+	margin-bottom: 0;
 }

@@ -1,163 +1,298 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ana Julia Miranda, Gabriela Goulart, Gabriely Diniz, Mauricio Roseo, Ludervan">
-    <meta name="description" content="Um site para incentivo ao ensino">
-    <meta name="keywords" content="Escola, EJA, Proeja, Fundamental, Ensino Médio, Escolaridade, Instituições">
-    <title>Creative Bush</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="author"
+			content="Ana Julia Miranda, Gabriela Goulart, Gabriely Diniz, Mauricio Roseo, Ludervan" />
+		<meta name="description" content="Um site para incentivo ao ensino" />
+		<meta
+			name="keywords"
+			content="Escola, EJA, Proeja, Fundamental, Ensino Médio, Escolaridade, Instituições" />
+		<title>Creative Bush</title>
 
-    <link rel="stylesheet" href="css/style.css"/>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
-<body>
-    <!--Cabeçalho-->
-    <nav class="navbar navbar-expand-lg bg-greenhd">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/Logomarca Creative Bush.png" width="75" height="75"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="selected" aria-current="page" href="formulario.html">Formulário</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>
-          </div>
-        </div>
-    </nav>
-    <!--Corpo-->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous" />
+	</head>
+	<body>
+		<!--Cabeçalho-->
+		<nav class="navbar navbar-expand-lg bg-greenhd">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="img/Logomarca Creative Bush.png" width="75" height="75" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								id="selected"
+								aria-current="page"
+								href="formulario.html"
+								>Formulário</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contato.html">Contato</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Pesquisar"
+							aria-label="Search" />
+						<button class="btn btn-outline-success" type="submit">
+							Pesquisar
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!--Corpo-->
 
-    <div class="container-fluid" id="corpoforms">
-        <div class="introforms">
-            <p class="lead">
-                Este formulário tem como objetivo coletar informações sobre você, com o objetivo de direcioná-lo e informá-lo sobre os locais que existem na sua cidade ou cidades vizinhas que tenham o tipo de ensino que se adeque a você.
-            </p>
-        </div>
-        <div class="Dropdown-div">
-            <div class="Dropdown-quest">
-                <p class="lead">Para isso, precisamos saber seu nível de escolaridade.</p>
-            </div>
-            
-        <div class="Dropdown">
-            <label for="Escolaridade" class="lead">Selecione abaixo a alternativa que melhor corresponde a sua situação.</label>
+		<div class="container-fluid" id="corpoforms">
+			<div class="introforms">
+				<p class="lead">
+					Este formulário tem como objetivo coletar informações sobre você, com
+					o objetivo de direcioná-lo e informá-lo sobre os locais que existem na
+					sua cidade ou cidades vizinhas que tenham o tipo de ensino que se
+					adeque a você.
+				</p>
+			</div>
+			<div class="Dropdown-div">
+				<div class="Dropdown-quest">
+					<p class="lead">
+						Para isso, precisamos saber seu nível de escolaridade.
+					</p>
+				</div>
 
-            <select name="Escolaridade" id="Escolaridade">
-                <option value="Null">Escolha seu nivel de escolaridade</option>
-                <option value="Fundamental-Incop">Ensino Fundamental Incompleto</option>
-                <option value="Fundamental">Ensino Fundamental Completo</option>
-                <option value="Médio-Incop">Ensino Médio Incompleto</option>
-            </select>
-        </div>
-        </div>
-        <div class="Dropdown-div">
-            <div class="Dropdown-quest">
-                <p class="lead">Qual a sua idade?</p>
-            </div>
-            <div>
-                <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="10">
-            </div>
-        </div>
-        <div class="Dropdown-div">
-            <div class="Dropdown-quest">
-                <p class="lead">Qual o seu interesse?</p>
-            </div>
-            <div class="Dropdown">
-                <label for="Interesse" class="lead">Selecione abaixo a alternativa que melhor corresponde a sua situação.</label>
+				<div class="Dropdown">
+					<label for="Escolaridade" class="lead"
+						>Selecione abaixo a alternativa que melhor corresponde a sua
+						situação.</label
+					>
 
-                <select name="Interesse" id="Interesse">
-                    <option value="Null">Escolha seu interesse</option>
-                    <option value="EJA-Fundamental">Completar o Ensino Fundamental</option>
-                    <option value="EJA-Medio">Completar o Ensino Médio</option>
-                    <option value="Proeja">Completar o Ensino Médio juntamente a um curso tecnico</option>
-                </select>
-            </div>
-        </div>
-        <div class="Dropdown-div">
-            <div class="Dropdown-quest">
-                <p class="lead">Com o {Nivel de Escolaridade}, você pode concluir o {Proximo nivel de escolaridade possivel} através de um curso {Interesse}. Mas para isso precisamos saber o estado que você mora. Escolha uma opção</p>
-            </div>
-            <div class="Dropdown">
-                <label for="Estado" class="lead">Selecione abaixo a alternativa que melhor corresponde a sua situação.</label>
+					<select name="Escolaridade" id="Escolaridade">
+						<option value="Null">Escolha seu nivel de escolaridade</option>
+						<option value="Fundamental-Incop">
+							Ensino Fundamental Incompleto
+						</option>
+						<option value="Fundamental">Ensino Fundamental Completo</option>
+						<option value="Médio-Incop">Ensino Médio Incompleto</option>
+					</select>
+				</div>
+			</div>
+			<div class="Dropdown-div">
+				<div class="Dropdown-quest">
+					<p class="lead">Qual a sua idade?</p>
+				</div>
+				<div>
+					<input
+						type="number"
+						id="idade"
+						name="idade"
+						placeholder="Digite sua idade"
+						min="10" />
+				</div>
+			</div>
+			<div class="Dropdown-div">
+				<div class="Dropdown-quest">
+					<p class="lead">Qual o seu interesse?</p>
+				</div>
+				<div class="Dropdown">
+					<label for="Interesse" class="lead"
+						>Selecione abaixo a alternativa que melhor corresponde a sua
+						situação.</label
+					>
 
-                <select name="Estado" id="Estado">
-                    <option value="Null">Escolha o Estado que você mora</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="outra">Meu Estado não está entra as opções acima</option>
-                </select>
-            </div>
-            <p class="h4">Lamentamos o fato de seu estado não estar entre as opções, caso queira solicitar que seu estado e sua cidade sejam inseridos em nosso site <a href="contato.html">clique aqui</a>.</p>
-        </div>
-        <div class="Dropdown-div">
-            <p>Em qual cidade de São Paulo você vive?</p>
-        </div>
-        <div class="Dropdown">
-            <label for="Cidade" class="lead">Selecione abaixo a alternativa que melhor corresponde a sua situação.</label>
+					<select name="Interesse" id="Interesse">
+						<option value="Null">Escolha seu interesse</option>
+						<option value="EJA-Fundamental">
+							Completar o Ensino Fundamental
+						</option>
+						<option value="EJA-Medio">Completar o Ensino Médio</option>
+						<option value="Proeja">
+							Completar o Ensino Médio juntamente a um curso tecnico
+						</option>
+					</select>
+				</div>
+			</div>
+			<div class="Dropdown-div">
+				<div class="Dropdown-quest">
+					<p class="lead">
+						Com o {Nivel de Escolaridade}, você pode concluir o {Proximo nivel
+						de escolaridade possivel} através de um curso {Interesse}. Mas para
+						isso precisamos saber o estado que você mora. Escolha uma opção
+					</p>
+				</div>
+				<div class="Dropdown">
+					<label for="Estado" class="lead"
+						>Selecione abaixo a alternativa que melhor corresponde a sua
+						situação.</label
+					>
 
-            <select name="Cidade" id="Cidade">
-                <option value="Null">Escolha a cidade de {Estado} que você mora</option>
-                <option value="Caraguatatuba">Caraguatatuba</option>
-                <option value="São Sebastião">São Sebastião</option>
-                <option value="Ubatuba">Ubatuba</option>
-                <option value="Ilha Bela">Ilha Bela</option>
-                <option value="outra">Minha Cidade não está entra as opções acima</option>
-            </select>
-        </div>
-        <p class="h4">Lamentamos o fato da sua Cidade não estar entre as opções, caso queira solicitar que sua cidade seja inserida em nosso site <a href="contato.html">clique aqui</a>.</p>
-        <div>
-            <p class="h3">Parabéns! o Formulario foi respondido com sucesso, segue abaixo a lista de endereços que encontramos. Caso queria saber quais documentos você deve levar <a href="index.html">Clique Aqui</a>.</p>
-            <ul class="lista-endereco" name="lista Caraguatatuba">
-                <li>Caraguatatuba ensino fundamental e ensino médio -  Rua Vinte de Abril, 125, bairro Massaguaçu. Telefones  3884-1953 ou 3884-5025.</li>
-                <li>EMEF Prof. Antonio de Freitas de Avelar, ensino fundamental e ensino médio – Rua João Marcelo, 302, bairro Estrela D’Alva. Telefone: 3882-2493.</li>
-                <li>EMEF Prof. Alaor Xavier Junqueira, ensino fundamental e ensino médio - Bairro Travessão – Rua José Ferreira dos Santos, 381, bairro Travessão. Telefone 3887-2612.</li>
-                <li>Proeja ensino médio - IFSP Caraguatatuba - Av. Bahia, 1739 - Indaiá, Caraguatatuba - SP, 11665-071 - Contato: (12) 3885-2130</li>
-            </ul>
-            <ul class="lista-endereco" name="lista São Sebastião">
-                <li>EM Prof.ª Patrícia Viviani Santana -  Av. Prof. Machado Rosa, 349 – Topolândia. Telefones (12) 3892-5009/5519.</li>
-                <li>EM Prof. Antonio Luiz Monteiro – Estrada do Cascalho, 1.409 – Boiçucanga. Telefone: (12) 3865-2644/3613.</li>
-                <li>EM Prof.ª Nair Ribeiro de Almeida – Rua Maria Madalena Faustino, 870 – Juquehy. Telefone (12) 3863-1627.</li>
-                <li>EM Prof.ª Cynthia Cliquet Luciano - Rua Castro Alves, 377 – Enseada- Contato: (12) (12) 3861-2617</li>
-            </ul>
-            <ul class="lista-endereco" name="lista Ilha Bela">
-                <li>EJA ensino médio- Escola Gabriel Ribeiro Dos Santos Doutor - Rua Santa Teresa, 174 - Centro. Contato: (12) 3896-1190</li>
-                <li>EJA ensino médio - Escola Municipal Antonio Honorio dos Santos - Praia do Bonete - Bonete. Contato:(12) 3894-7000</li>
-                <li>EJA ensino médio- Escola Municipal Euripedes da Silva Ferreira Prefeito  Rua Bahia, 205 - Barra Velha. Contato: (12) 3895-1100</li>
-                <li>EJA ensino médio- Escola Municipal Ruth Leite Correia Cardoso Professora Doutora -Rua Gerson Peres de Araujo, 331 - Barra Velha. Contato:(12) 3895-7182</li>
-                <li>EJA ensino médio- Escola Municipal Joao Antonio Cesar Professor - Praia Mansa - Praia Mansa. Contato:(12) 3896-2250</li>
-            </ul>
-            <ul class="lista-endereco" name="lista Ubatuba">
-                <li>Eja ensino fundamental - EM Olga Ribas de Andrade Gil - R. Conceição, 710 - Centro. Contato: 01238333696</li>
-                <li>Eja ensino fundamental - EM Profª Maria Josefina Giglio da Silva - Av. Vasco da Gama. Contato: 01238336261</li>
-            </ul>
-        </div>
-    </div>
+					<select name="Estado" id="Estado">
+						<option value="Null">Escolha o Estado que você mora</option>
+						<option value="SP">São Paulo</option>
+						<option value="outra">
+							Meu Estado não está entra as opções acima
+						</option>
+					</select>
+				</div>
+				<p class="h4">
+					Lamentamos o fato de seu estado não estar entre as opções, caso queira
+					solicitar que seu estado e sua cidade sejam inseridos em nosso site
+					<a href="contato.html">clique aqui</a>.
+				</p>
+			</div>
+			<div class="Dropdown-div">
+				<p>Em qual cidade de São Paulo você vive?</p>
+			</div>
+			<div class="Dropdown">
+				<label for="Cidade" class="lead"
+					>Selecione abaixo a alternativa que melhor corresponde a sua
+					situação.</label
+				>
 
-    <!--Rodapé-->
-    <footer>
-        <div class="d-flex justify-content-between py-4 my-4 border-top" id="footer">
-            <p class="footTxt">Creative Bush ©2022 - Todos os direitos reservados</p>
-            <div class="redes">
-                <a class="imgredes" href="#"><img src="img/footer-1.png" width="50px"></a>
-                <a class="imgredes" href="#"><img src="img/footer-2.png" width="50px"></a>
-                <a class="imgredes" href="#"><img src="img/footer-3.png" width="50px"></a>
-            </div>
-        </div>
-    </footer>
-</body>
+				<select name="Cidade" id="Cidade">
+					<option value="Null">
+						Escolha a cidade de {Estado} que você mora
+					</option>
+					<option value="Caraguatatuba">Caraguatatuba</option>
+					<option value="São Sebastião">São Sebastião</option>
+					<option value="Ubatuba">Ubatuba</option>
+					<option value="Ilha Bela">Ilha Bela</option>
+					<option value="outra">
+						Minha Cidade não está entra as opções acima
+					</option>
+				</select>
+			</div>
+			<p class="h4">
+				Lamentamos o fato da sua Cidade não estar entre as opções, caso queira
+				solicitar que sua cidade seja inserida em nosso site
+				<a href="contato.html">clique aqui</a>.
+			</p>
+			<div>
+				<p class="h3">
+					Parabéns! o Formulario foi respondido com sucesso, segue abaixo a
+					lista de endereços que encontramos. Caso queria saber quais documentos
+					você deve levar <a href="index.html">Clique Aqui</a>.
+				</p>
+				<ul class="lista-endereco" name="lista Caraguatatuba">
+					<li>
+						Caraguatatuba ensino fundamental e ensino médio - Rua Vinte de
+						Abril, 125, bairro Massaguaçu. Telefones 3884-1953 ou 3884-5025.
+					</li>
+					<li>
+						EMEF Prof. Antonio de Freitas de Avelar, ensino fundamental e ensino
+						médio – Rua João Marcelo, 302, bairro Estrela D’Alva. Telefone:
+						3882-2493.
+					</li>
+					<li>
+						EMEF Prof. Alaor Xavier Junqueira, ensino fundamental e ensino médio
+						- Bairro Travessão – Rua José Ferreira dos Santos, 381, bairro
+						Travessão. Telefone 3887-2612.
+					</li>
+					<li>
+						Proeja ensino médio - IFSP Caraguatatuba - Av. Bahia, 1739 - Indaiá,
+						Caraguatatuba - SP, 11665-071 - Contato: (12) 3885-2130
+					</li>
+				</ul>
+				<ul class="lista-endereco" name="lista São Sebastião">
+					<li>
+						EM Prof.ª Patrícia Viviani Santana - Av. Prof. Machado Rosa, 349 –
+						Topolândia. Telefones (12) 3892-5009/5519.
+					</li>
+					<li>
+						EM Prof. Antonio Luiz Monteiro – Estrada do Cascalho, 1.409 –
+						Boiçucanga. Telefone: (12) 3865-2644/3613.
+					</li>
+					<li>
+						EM Prof.ª Nair Ribeiro de Almeida – Rua Maria Madalena Faustino, 870
+						– Juquehy. Telefone (12) 3863-1627.
+					</li>
+					<li>
+						EM Prof.ª Cynthia Cliquet Luciano - Rua Castro Alves, 377 – Enseada-
+						Contato: (12) (12) 3861-2617
+					</li>
+				</ul>
+				<ul class="lista-endereco" name="lista Ilha Bela">
+					<li>
+						EJA ensino médio- Escola Gabriel Ribeiro Dos Santos Doutor - Rua
+						Santa Teresa, 174 - Centro. Contato: (12) 3896-1190
+					</li>
+					<li>
+						EJA ensino médio - Escola Municipal Antonio Honorio dos Santos -
+						Praia do Bonete - Bonete. Contato:(12) 3894-7000
+					</li>
+					<li>
+						EJA ensino médio- Escola Municipal Euripedes da Silva Ferreira
+						Prefeito Rua Bahia, 205 - Barra Velha. Contato: (12) 3895-1100
+					</li>
+					<li>
+						EJA ensino médio- Escola Municipal Ruth Leite Correia Cardoso
+						Professora Doutora -Rua Gerson Peres de Araujo, 331 - Barra Velha.
+						Contato:(12) 3895-7182
+					</li>
+					<li>
+						EJA ensino médio- Escola Municipal Joao Antonio Cesar Professor -
+						Praia Mansa - Praia Mansa. Contato:(12) 3896-2250
+					</li>
+				</ul>
+				<ul class="lista-endereco" name="lista Ubatuba">
+					<li>
+						Eja ensino fundamental - EM Olga Ribas de Andrade Gil - R.
+						Conceição, 710 - Centro. Contato: 01238333696
+					</li>
+					<li>
+						Eja ensino fundamental - EM Profª Maria Josefina Giglio da Silva -
+						Av. Vasco da Gama. Contato: 01238336261
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--Rodapé-->
+		<footer>
+			<div
+				class="d-flex justify-content-between py-4 my-4 border-top"
+				id="footer">
+				<p class="footTxt">
+					Creative Bush ©2022 - Todos os direitos reservados
+				</p>
+				<div class="redes">
+					<a class="imgredes" href="#"
+						><img src="img/footer-1.png" width="50px"
+					/></a>
+					<a class="imgredes" href="#"
+						><img src="img/footer-2.png" width="50px"
+					/></a>
+					<a class="imgredes" href="#"
+						><img src="img/footer-3.png" width="50px"
+					/></a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>

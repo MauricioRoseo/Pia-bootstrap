@@ -1,0 +1,8 @@
+gerar a lista de dependencias
+pip freeze > requirements.txt
+pip install sqlalchemy
+pip install flask
+pip install flask-SQLAlchemy
+
+instalar a partir da lista
+pip install -r requirements.txt

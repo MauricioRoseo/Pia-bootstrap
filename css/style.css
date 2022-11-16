@@ -91,9 +91,17 @@
 	color: rgb(32, 180, 126);
 }
 
+#bt-enviar {
+	background-color: #5ba38b;
+	border-radius: 20%;
+	border-color: #5ba38b;
+	font-size: 24px;
+	text-align: center;
+}
+
 /*Rodapé*/
 #footer {
-	background-color: rgb(0, 88, 55);
+	color: rgb(0, 88, 55);
 }
 
 .footTxt {
